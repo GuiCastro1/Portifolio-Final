@@ -1,0 +1,84 @@
+*{
+    margin:0;
+    padding:0; 
+}
+@import url('https://fonts.googleapis.com/css2?family=Jersey+25&display=swap');/*font-family: "Jersey 25", sans-serif;*/
+
+/* @import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap'); font-family: "Kode Mono", monospace;  */
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap');
+
+:root{
+    --cor-um:#480282ee;
+    --cor-dois:#ffffff;
+    --cor-três:#cf2828a2;
+    --cor-quatro:#0000ff;
+    --cor-cinco:#800080;
+    /* font-family:"Jersey 25", sans-serif; */
+    /* --font-tt:"Jersey 25", sans-serif;
+    --font-txt:"Kode Mono", monospace; */
+    --font-GGG:50px
+}
+
+body{
+    background-color: var(--cor-um);
+}
+
+nav{
+    background-color: var(--cor-cinco);
+    height: 10vh;
+    text-align: center;
+
+}
+
+
+
+nav > a{
+    /* font-size: var(--font-GGG); */
+    padding-left: 2em;
+    padding-right: 2em;
+    text-decoration: none;
+    color: var(--cor-dois);
+    height: 10vh;
+    line-height: 10vh;
+    display: inline-block;
+    border-radius: 10px;
+
+
+}
+nav > a:hover{
+    color:var(--cor-dois) ;
+    background-color:var(--cor-três) ;
+}
+h1{
+    color: #ffffff;
+    font-family: "Jersey 25", sans-serif;
+    font-size: var(--font-GGG);
+    text-align: center;
+}
+
+figure{
+    float: right;
+}
+
+figure > img{
+    width: 200px;
+    height: 300px;
+}
+
+p{  
+    border: 3px white solid;
+    border-radius: 25px;
+    font-family:"Kode Mono", monospace ;
+    font-size: 50px;
+    color: white;
+}
+
+footer{
+
+    text-align: center;
+}
+
+
+
+
+
