@@ -33,7 +33,7 @@ nav{
 
 
 nav > a{
-    /* font-size: var(--font-GGG); */
+    font-size: var(--font-GGG);
     padding-left: 2em;
     padding-right: 2em;
     text-decoration: none;
@@ -56,9 +56,14 @@ h1{
     text-align: center;
 }
 
-figure{
-    float: right;
+.conteiner{
+    border: 3px solid;
+    border-radius: 25px;
+    
 }
+/* figure{
+    float: right;
+} 
 
 figure > img{
     width: 200px;
@@ -69,9 +74,10 @@ p{
     border: 3px white solid;
     border-radius: 25px;
     font-family:"Kode Mono", monospace ;
-    font-size: 50px;
+    font-size: 30px;
     color: white;
-}
+    
+} */
 
 footer{
 
