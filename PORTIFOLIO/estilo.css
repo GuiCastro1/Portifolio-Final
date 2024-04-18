@@ -8,11 +8,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap');
 
 :root{
-    --cor-um:#480282ee;
+    --cor-um:#6c6c6cee;
     --cor-dois:#ffffff;
-    --cor-três:#cf2828a2;
+    --cor-três:#ff0000;
     --cor-quatro:#0000ff;
-    --cor-cinco:#800080;
+    --cor-cinco:#000000;
     /* font-family:"Jersey 25", sans-serif; */
     /* --font-tt:"Jersey 25", sans-serif;
     --font-txt:"Kode Mono", monospace; */
@@ -24,6 +24,8 @@ body{
 }
 
 nav{
+    margin-top: 15px;
+    border-radius: 50px;
     background-color: var(--cor-cinco);
     height: 10vh;
     text-align: center;
@@ -57,9 +59,19 @@ h1{
 }
 
 .conteiner{
+    padding: 20px;
+    margin: 5px;
     border: 3px solid;
     border-radius: 25px;
+    overflow: auto;
     
+}
+
+.conteiner img{
+    float: right;
+    height: 300px;
+    width: 200px;
+    padding: 20px;
 }
 /* figure{
     float: right;
