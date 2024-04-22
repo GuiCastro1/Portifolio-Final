@@ -1,9 +1,9 @@
 *{
     margin:0;
     padding:0; 
-} 
- @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');/* font-family: "Chakra Petch", sans-serif; */
+}
 
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
 
 :root{
     --cor-um:#6c6c6cee;
@@ -15,9 +15,6 @@
 }
 
 body{
-     /* background-color: var(--cor-um); 
-     height: 1vh; */
-
 }
 
 .sec01{
@@ -26,15 +23,11 @@ body{
 }
 
 nav{
-    /* margin-top: 15px; */
-    /* border-radius: 50px; */
+    border-top: 10px;
     background-color: var(--cor-cinco);
     height: 10vh; 
     text-align: center;
-
 }
-
-
 
 nav > a{
     font-size: var(--font-GGG);
@@ -46,13 +39,13 @@ nav > a{
     line-height: 10vh; 
     display: inline-block;
     border-radius: 10px; 
-
-
 }
+
 nav > a:hover{
-    color:var(--cor-dois) ;
-    background-color:var(--cor-três) ;
+    color:var(--cor-dois);
+    background-color:var(--cor-três);
 }
+
 h1{
     color: #ffffff;
     font-size: var(--font-GGG);
@@ -66,34 +59,53 @@ h1{
     border-radius: 25px;
     font-family: "Chakra Petch", sans-serif;
     font-weight: 400;
-    /* display:  inline-block;
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-end; */
-    
+    display: inline-block;
 }
 
-figure{
-    float: right;
-} 
-
-figure > img{
+.conteine{
+    margin: 50px;
+    display: inline;
     width: 200px;
     height: 300px;
+    border-radius: 100%;
+
+    
+   
+
 }
+
+
+
+
+
 .sec02{
-    background-color:var(--cor-um) ;
+    background-color:var(--cor-um);
     height: 80vh;
 }
+h2{
+    text-align: center;
+    font-size: 50px;
+}
+
+ul > li{
+    margin: 50px;
+    margin-top:100px;
+    font-size: 25px;
+    color:white;
+}
+ ul > li:hover{
+
+
+ }
+
+ h3{
+    color: var(--cor-dois);
+    font-size: 25px;
+ }
 
 
 footer{
-    background-color:var(--cor-cinco) ;
+    background-color:var(--cor-cinco);
     text-align: center;
     height: 50vh;
-}   
-
-
-
-
-
+}
