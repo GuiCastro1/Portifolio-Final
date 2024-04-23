@@ -5,6 +5,14 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
 
+@font-face {
+    font-family: 'Chakra Petch';
+    font-style: normal;
+    font-weight: 400; /* Ajuste o peso da fonte conforme necessário */
+    font-display: swap;
+    src: url('/fonts/chakra-petch/chakra-petch.woff2') format('woff2'),
+          url('/fonts/chakra-petch/chakra-petch.woff') format('woff');}
+
 :root{
     --cor-um:#6c6c6cee;
     --cor-dois:#ffffff;
@@ -20,6 +28,25 @@ body{
 .sec01{
     background-color: var(--cor-um);
     height: 80vh;
+}
+
+.sec01 p{
+    padding: 20px;
+    margin: 20px;
+    font-family: 'Chakra Petch', sans-serif;
+    border: 3px solid;
+    border-radius: 25px;
+    display: inline-block;
+}
+
+.sec01 img{
+    margin: 50px;
+    display: inline;
+    width: 300px;
+    height: 400px;
+    float: right ;
+    border-radius: 50px;
+
 }
 
 nav{
@@ -47,18 +74,18 @@ nav > a:hover{
 }
 
 h1{
+    border-bottom: 500px;
     color: #ffffff;
     font-size: var(--font-GGG);
     text-align: center;
 }
 
-.conteiner{
+ /* .conteiner{
     padding: 20px;
     margin: 20px;
+    font-family: 'Chakra Petch', sans-serif;
     border: 3px solid;
     border-radius: 25px;
-    font-family: "Chakra Petch", sans-serif;
-    font-weight: 400;
     display: inline-block;
 }
 
@@ -66,17 +93,9 @@ h1{
     margin: 50px;
     display: inline;
     width: 200px;
-    height: 300px;
-    border-radius: 100%;
+    height: 300px; 
 
-    
-   
-
-}
-
-
-
-
+} */ 
 
 .sec02{
     background-color:var(--cor-um);
@@ -108,4 +127,11 @@ footer{
     background-color:var(--cor-cinco);
     text-align: center;
     height: 50vh;
+    
+}
+
+footer > a{
+    text-decoration: none;
+    font-size: 30px;
+    border:20px;
 }
