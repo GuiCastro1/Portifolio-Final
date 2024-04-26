@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
 
 *{
     margin:0;
@@ -164,4 +164,194 @@ footer > a {
 footer > a:hover{
 
 
+} */
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
 }
+
+:root {
+    --cor-um: #6c6c6cee;
+    --cor-dois: #ffffff;
+    --cor-três: #ff0000;
+    --cor-quatro: #0000ff;
+    --cor-cinco: #000000;
+    --font-GGG: 50px
+}
+body{
+    /* background-color: #21445c; */
+    background-color: #4b0e5a;
+}
+
+nav {
+    border-top: 10px;
+    /* background-color: var(--cor-um); */
+    height: 14vh;
+    text-align: right;
+
+}
+
+nav>a>button {
+    margin-bottom: 0px;
+    margin-top: 40px;
+    margin-left: 1px;
+    margin-right: 35px;
+    padding: 5px;
+    border-radius: 50px;
+    border: #000000 solid 2px;
+    font-family: "Chakra Petch", sans-serif;
+    font-size: 25px;
+    color: var(--cor-dois);
+   background-color: transparent;
+
+}
+
+nav>a>button:hover {
+    color: var(--cor-cinco);
+    background-color: var(--cor-dois);
+}
+
+
+
+.sec01 {
+    /* background-color: var(--cor-um); */
+    height: 100vh;
+    font-family: "Chakra Petch", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.sec01 h1 {
+    align-self: flex-start;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.sec01 p {
+    padding: 20px;
+    margin: 20px;
+    font-family: "Chakra Petch", sans-serif;
+    border: 3px solid black;
+    border-radius: 25px;
+    font-size: 25px;
+    text-align: justify;
+    color: var(--cor-dois);
+}
+
+.sec01 img {
+    margin: 50px;
+    width: 300px;
+    height: 400px;
+    border-radius: 50px;
+}
+
+
+
+h1 {
+    border-bottom: 500px;
+    color: var(--cor-cinco);
+    font-size: var(--font-GGG);
+    text-align: center;
+}
+
+
+.sec02 {
+    /* background-color: var(--cor-um); */
+    height: 100vh;
+}
+
+h2 {
+    font-family: "Chakra Petch", sans-serif;
+    text-align: center;
+    font-size: 50px;
+}
+
+ul>li {
+    display: block;
+    text-decoration: none;
+    font-family: "Chakra Petch", sans-serif;
+    margin: 50px;
+    margin-top: 50px;
+    font-size: 25px;
+    color: white;
+}
+
+ul>li:hover {
+    background-color: #ffffff;
+    color: #000000;
+
+
+
+}
+
+.sec03 {
+    /* background-color: var(--cor-um); */
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.sec03 h2 {
+    text-align: center;
+    font-family: "Chakra Petch", sans-serif;
+    border: dashed var(--cor-dois) 2px;
+    margin-bottom: 150px;
+}
+
+.sec03 figure>img {
+    border-radius: 25px;
+    width: 300px;
+    height: 400px;
+    margin: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.sec03 figure>img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+
+
+
+.foot {
+   
+    /* background-color: var(--cor-um); */
+    height: 60vh;
+}
+
+.foot h3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: var(--cor-cinco);
+    font-size: 45px;
+    text-align: center;
+    font-family: "Chakra Petch", sans-serif;
+}
+
+
+  .foot a {
+    font-family: "Chakra Petch", sans-serif;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    border: #ffffff solid 2px;
+    border-radius: 100px; 
+    color: var(--cor-dois);
+    font-size: 30px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+.foot a:hover{
+    background-color: var(--cor-cinco);
+}  
